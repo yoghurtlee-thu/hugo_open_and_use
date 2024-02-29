@@ -1,0 +1,15 @@
+{{ $friends := getJSON "static/friends.json" }}
+{{ range $friends.friend}}
+<div class="archive-item links-item cf-friends">
+    <img loading="lazy" class="archive-list-image avatar"
+        src="{{ with .ava }}{{ if ne . "" }}{{ . }}{{ else }}https://cravatar.cn/avatar/{{ $.md5 }}{{ end }}{{ else }}https://cravatar.cn/avatar/{{ .md5 }}{{ end }}" />
+    <a target="_blank" href={{ .url }}>
+        {{ if .note }}
+        {{ .note }}（{{ .name }}）
+        {{ else }}
+        {{ .name }}
+        {{ end }}
+    </a>
+    <p>{{ if gt (len .des) 15 }}{{ substr .des 0 15 }}{{ else }}{{ .des }}{{ end }}</p>
+</div>
+{{ end }}

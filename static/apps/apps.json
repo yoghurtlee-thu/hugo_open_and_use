@@ -1,0 +1,10 @@
+{
+    "app": [
+        {
+            "image": "/apps/1.webp",
+            "title": "APP名称",
+            "link": "链接",
+            "note": "描述"
+        }
+    ]
+}

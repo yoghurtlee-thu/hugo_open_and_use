@@ -1,0 +1,98 @@
+# 此处填写你的网站域名
+baseURL = 'https://hugopreview.netlify.app'
+languageCode = 'zh-CN'
+timeZone = 'Asia/Shanghai'
+# 此处填写你的站点标题
+title = '园子里的日光'
+
+# 主题
+theme  =  "hello-friend"
+summaryLength = 70
+hasCJKLanguage = true
+# 每页显示的文章数量用于分页
+paginate =  10
+
+[permalinks]
+  posts = "/:slug/"
+  tags = "/tags/:slug/"
+
+[menu]
+  [[menu.main]]
+  name="公告"
+  url="/tags/公告/"
+  weight="1"
+  [[menu.main]]
+  name="友链"
+  url="/links/"
+  weight="2"
+  [[menu.main]]
+  name="NOW"
+  url="/now/"
+  weight="3"
+  [[menu.main]]
+  name="说说"
+  url="/posts/chat/"
+  weight="4"
+  [[menu.main]]
+  name="归档"
+  url="/archives/"
+  weight="5"
+  [[menu.main]]
+  name="关于"
+  url="/about/"
+  weight="6"
+  [[menu.main]]
+  name="🔍"
+  url="/search/"
+  weight="7"
+
+[params]
+  # dir name of your blog content (default is `content`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  # showMenuItems = 4
+  # Enable to show reading time in minutes for posts
+  showReadingTime = true
+  logoText = "hello friend"
+
+  MenuMore = "更多"
+  DateFormatList = "2006-01-02"
+  DateFormatSingle = "2006-01-02"
+  ReadMore = "想继续听听吗？"
+  
+  description = "柴门闻犬吠，风雪夜归人"
+  keywords = "博客、计算机、数学、生活、阅读、随笔"
+# 上面的都可以自己改
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      delimiters.block = [
+        ["\\[", "\\]"],
+        ["$$", "$$"]
+      ]
+      delimiters.inline = [
+        ["\\(", "\\)"],
+        ["$", "$"]
+      ]
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 1
+    
+[outputs]
+  home = ["Atom", "HTML","JSON"] # <domain>/atom.xml
+  page = ["HTML"]
+  
+[outputFormats.Atom]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[params.twikoo]
+  enable = false
+  visitor = true

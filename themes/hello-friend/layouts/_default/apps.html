@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ $apps := getJSON "static/apps/apps.json" }}
+
+<div class="post">
+  <h2 class="post-title"><a href="{{ .Permalink }}" target="_blank">{{ .Title | markdownify }}</a></h2>
+  <div class="post-content apps">
+    {{ .Content }}
+    <div id="apps">
+      {{ range $apps.app}}
+      <div class="app-card img-hide">
+        <div class="app-image"><img loading="lazy" decoding="async" src="{{ .image }}"></div>
+        <div class="app-title"><a href="{{ .link }}">{{ .title }}</a></div>
+        <div class="app-note">{{ .note }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if not (eq .Params.Comments "false") }}
+  {{ partial "comments.html" . }}
+  {{ end }}
+</div>
+{{ end }}

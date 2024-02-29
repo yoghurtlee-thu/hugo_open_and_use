@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "fa5b7ca6d0a12ead",
+    "type": "split",
+    "children": [
+      {
+        "id": "43b869b9a39f9cb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99cb82474e23cb81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7eccc882fbf4578",
+    "type": "split",
+    "children": [
+      {
+        "id": "a86002a4ac15af91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7190a898f7b5c165",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "583b5b05b7d9b9ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3d131870f2939496",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f3c101a152366bb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccf5f62c4be264a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47b01baedd68bce2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f3cdd3660d9f0fdc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a63cbfc466ed507e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a4ae3b2f8722318a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "99cb82474e23cb81",
+  "lastOpenFiles": [
+    "static/avatars/my_avatar.webp",
+    "static/music/水木道.webp",
+    "static/music/知意.webp",
+    "posts/示例文章1.md",
+    "static/img/示例图片.webp",
+    "posts/空白1.md",
+    "posts/空白2.md",
+    "posts/chat/20240228204730.md",
+    "_Templates/Hugo说说模板.md",
+    "_Templates/Hugo博客模板.md",
+    "posts/chat/20240228204630.md",
+    "posts/空白3.md",
+    "posts/chat",
+    "static/img/IMG-20240122120000.webp",
+    "static/img/IMG-20240219194503-0.webp",
+    "static/img/IMG-20240216184934-0.webp",
+    "static/img/make_meaning.webp",
+    "posts",
+    "content/notice.md",
+    "content/links.md",
+    "content/demo.md",
+    "content/如今.md",
+    "content/关于我.md",
+    "content/tech/apps.md",
+    "content/life/music.md",
+    "content/life/goods.md",
+    "content/life/books.md",
+    "content/archives/_index.md",
+    "content/search.md",
+    "Welcome.md"
+  ]
+}

@@ -1,0 +1,10 @@
+{{ $altSize := split .Text "|" }}
+{{ $alt := index $altSize 0 }}
+{{ $size := index $altSize 1 }}
+<figure{{ with .Title }} id="{{ . }}" {{ end }}>
+    <img loading='lazy' decoding="async" src="{{ .Destination | safeURL }}" alt="{{ $alt }}" {{ with $size }}
+        width="{{ . }}" {{ end }} {{ with .Title }} title="{{ . }}" {{ end }} />
+    {{ with $alt }}
+    <figcaption>{{ . }}</figcaption>
+    {{ end }}
+    </figure>

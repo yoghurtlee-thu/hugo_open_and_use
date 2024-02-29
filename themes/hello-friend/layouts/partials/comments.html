@@ -1,0 +1,12 @@
+<!-- twikoo -->
+{{- if .Site.Params.twikoo.enable}}
+{{- if not .Site.IsServer }}
+<div class="pagination__title">
+  <span class="pagination__title-h">欢迎评论</span>
+  <hr />
+</div>
+  <div id="tcomment"></div>
+  <script src="/twikoo.js"></script>
+  <script>twikoo.init({ envId: '<请你在此处填写你的 twikoo 域名>', el: '#tcomment' })</script>
+  {{- end }}
+{{- end }}

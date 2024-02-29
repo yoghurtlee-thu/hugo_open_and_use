@@ -1,0 +1,11 @@
+{
+    "good": [
+        {
+            "image": "/goods/2.webp",
+            "jiage": "价格",
+            "title": "名称",
+            "link": "链接",
+            "note": "描述"
+        }
+    ]
+}
