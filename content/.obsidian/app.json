@@ -1,6 +1,6 @@
 {
   "strictLineBreaks": true,
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "static/img",
+  "attachmentFolderPath": "/",
   "promptDelete": false
 }
